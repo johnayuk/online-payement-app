@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: #ffffff !important;
+}
+
+.con3{
+    background-color: rgb(255, 255, 255);
+    width: 79vw !important;
+}
+
+.box1{
+    background-color: rgb(38, 52, 78) !important;
+}
+
+.box2{
+    background-color: #efefef;
+}
+
+input{
+    margin-left: 2% !important;
+    margin-top: 1% !important;
+    width: 23vw !important;
+}
+
+.card{
+    height: 21vh;
+    border-radius: 0% !important;
+}
+
+.div4{
+    margin-left: 18%;
+}
+
+img{
+    height: 50%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: lighter !important;
+}
+
+.form_button{
+   border: ridge 1px blue;
+    margin-bottom: 2% !important;
+    margin-left: 11em;
+   width: 7vw;
+   height: 4vh;
+}
+
+a>img{
+    height: 5vh !important;
+    width: 3vw;
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+@media screen and (max-width:500px){
+    #model_container{
+        margin-left: 5% !important;
+       }
+
+       .navbar-brand{
+           visibility: visible !important;
+       }
+
+       .box1{
+        display: none;
+       }
+
+       .nav-item3{
+        width: 6vw !important;
+        box-sizing: border-box;
+        padding-top: 2% !important;
+        height: 5vh; 
+        border-radius: 50%; 
+        border: black 1px solid; 
+        margin-right: 2.5em;
+       }
+
+       .Logout{
+        width: 93vw !important;
+       
+       }
+
+       .Logout>h6{
+        font-size: large !important;
+        color: blue;
+       }
+
+       p{
+           font-size: 13px;
+       }
+
+       a>img{
+        height: 5vh !important;
+        width: 6vw;
+        border-radius: 50%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .form_button{
+        display: none;
+    }
+
+    .input1,.input2,.input3{
+        width: 55vw !important;
+    }
+}
